@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Hurricane Mobility Analysis"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "[Last Name]"
+    given-names: "[First Name]"
+    affiliation: "[Institution]"
+date-released: 2025-01-01
+url: "https://github.com/[owner]/hurricane-mobility"
+license: MIT

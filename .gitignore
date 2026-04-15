@@ -1,0 +1,30 @@
+# Raw data (too large for git; provide download instructions in README)
+data/raw/**/*.csv
+data/raw/**/*.xlsx
+!data/raw/.gitkeep
+!data/raw/google_mobility/.gitkeep
+
+# Processed data (regenerable)
+data/processed/*.parquet
+
+# Generated outputs (regenerable)
+output/figures/*
+output/tables/*
+!output/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Presentations
+*.pptx
