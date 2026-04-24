@@ -8,7 +8,9 @@ data/raw/**/*.xlsx
 data/processed/*.parquet
 
 # Generated outputs (regenerable)
+# Figures: commit PNGs so they render on GitHub; ignore other formats.
 output/figures/*
+!output/figures/*.png
 output/tables/*
 !output/**/.gitkeep
 
